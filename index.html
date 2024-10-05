@@ -1,0 +1,68 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My Website Home Page</title>
+    <style>
+        /* Apply full height to the body */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(55, 50, 50); /* Set background color to black */
+            color: white; /* Change text color to white for contrast */
+        }
+
+        /* Flexbox centering */
+        body {
+            display: flex;
+            justify-content: center;  /* Horizontal centering */
+            align-items: flex-start;      /* Vertical centering + start at top */
+            text-align: center;       /* Center text */
+            font-family: Arial, sans-serif;
+            padding-top: 250px;       /* Adjust padding for top spacing */
+        }
+
+        /* Set font sizes */
+        h1 {
+            font-size: 48px; /* Large heading */
+            margin-bottom: 10px; /* Reduce space below the heading */
+        }
+
+        p {
+            font-size: 30px; /* Paragraph text size */
+            margin-top: 0; /* Remove space above the paragraph */
+            margin-bottom: 80px; /* Optional: adjust bottom margin if needed */
+        }
+
+        /* Style for links */
+        .links {
+            display: flex; /* Use flexbox for horizontal alignment */
+            justify-content: center; /* Center links horizontally */
+            margin-top: 20px; /* Space between text and links */
+        }
+
+        a {
+            font-size: 26px; /* Link text size */
+            text-decoration: none; /* Optional: Remove underline from link */
+            color: lightblue; /* Change link color for visibility */
+            margin: 0 40px; /* Horizontal spacing: 20px on left and right */
+        }
+    </style>
+</head>
+    <body>
+    <div>
+        <h1>Welcome to my website!</h1> <!-- This is the heading -->
+        <p>Now hosted on Amazon S3 utilizing Amazon Route 53! </p> <!-- This is the body paragraph -->
+        <div class="links"> <!-- Create a container for the links -->
+            <a href="https://drive.google.com/file/d/10hag8lU62SfLRAjQZi3wDI0snbkyW7KR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                Resume
+            </a>
+            <a href="https://www.linkedin.com/in/jiajun-shi-6070a5248/" target="_blank" rel="noopener noreferrer"> 
+                LinkedIn
+            </a> 
+            <a href="https://github.com/jiajunshi1" target="_blank" rel="noopener noreferrer"> 
+                GitHub
+            </a> 
+            <!-- This is a link to my resume hosted on Google Drive + LinkedIn + GitHub -->
+    </div>
+    </body>
+</html>
